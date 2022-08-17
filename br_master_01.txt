@@ -1,0 +1,22 @@
+BLOB - сущность с содержанием объекта
+TREE  - расположение файлов структуре
+Commit - ссылается на TREE и др. авторы и ссобщение и содержит указатель указатель parrents
+
+branch, tag
+Все объекты кэшируются (по содержаниею) (лежать объеты и ключи)
+
+
+
+ls -lAFtr .git/
+
+git status
+git add -A
+git commit -m "modified:   br_master_01.txt"
+git status
+git log --oneline --graph --all
+git cat-file -p 87eda474f4b277e93df70e3dd683b81d8128e446
+git cat-file -p c58841b
+
+ls -lAF .git/refs/heads/
+git commit -am'.txt'
+
